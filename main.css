@@ -1,0 +1,184 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url('./Images/frog\ background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-one {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#animal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: yellow;
+    font-size: 60px;
+}
+
+.animal-one {
+    border: 2px solid black;
+    background-color: rgba(255, 255, 255, 0.719);
+    width: 300px;
+    height: fit-content;
+}
+
+.img {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.img img {
+    border: 2px solid black;
+}
+
+.content {
+    border: 2px solid rgb(97, 46, 46);
+    background: #fff1f3;
+    padding-left: 5px;
+}
+
+.animal-one h3 {
+    font-size: 30px;
+    margin-left: 10px;
+    color: yellow;
+    font-weight: 700;
+}
+
+hr {
+    margin: 20px;
+    border: 1px solid black;
+}
+
+.animal-two {
+    border: 2px solid black;
+    background-color: goldenrod;
+    width: 300px;
+    height: fit-content;
+}
+
+.animal-two h3 {
+    font-size: 30px;
+    margin-left: 10px;
+    color: yellow;
+    font-weight: 700;
+}
+
+.animal-three {
+    border: 2px solid black;
+    background-color: orange;
+    width: 300px;
+    height: fit-content;
+}
+
+.animal-three h3 {
+    font-size: 30px;
+    margin-left: 10px;
+    color: yellow;
+    font-weight: 700;
+}
+
+
+.section-two {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.animal-four {
+    border: 2px solid black;
+    background-color: rgb(90, 199, 90);
+    width: 300px;
+    height: fit-content;
+}
+
+.animal-four h3 {
+    font-size: 30px;
+    margin-left: 10px;
+    color: yellow;
+    font-weight: 700;
+}
+
+.animal-five {
+    border: 2px solid black;
+    background-color: rgba(0, 0, 0, 0);
+    width: 300px;
+    height: fit-content;
+}
+
+.animal-five h3 {
+    font-size: 30px;
+    margin-left: 10px;
+    color: yellow;
+    font-weight: 700;
+}
+
+.animal-six {
+    border: 2px solid black;
+    background-color: rgb(63, 63, 85);
+    width: 300px;
+    height: fit-content;
+}
+
+.animal-six h3 {
+    font-size: 30px;
+    margin-left: 10px;
+    color: yellow;
+    font-weight: 700;
+}
+
+/* responsiveness */
+
+@media(max-width: 768px) {
+    .section-one {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0;
+    }
+
+    .section-two {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0;
+    }
+
+    #animal {
+        font-size: 40px;
+    }
+
+    .animal-one {
+        margin-top: 20px;
+    }
+
+    .animal-two {
+        margin-top: 20px;
+    }
+
+    .animal-three {
+        margin-top: 20px;
+    }
+
+    .animal-four {
+        margin-top: 20px;
+    }
+
+    .animal-five {
+        margin-top: 20px;
+    }
+
+    .animal-six {
+        margin-top: 20px;
+    }
+}
